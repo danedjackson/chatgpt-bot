@@ -1,0 +1,30 @@
+{
+  "name": "chatgptbot",
+  "version": "1.0.0",
+  "description": "Discord bot integrating with ChatGPT mainly for fun in personal server",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon .src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danedjackson/chatgpt-bot.git"
+  },
+  "author": "Dane Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danedjackson/chatgpt-bot/issues"
+  },
+  "homepage": "https://github.com/danedjackson/chatgpt-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
+}
